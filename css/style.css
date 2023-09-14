@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+body{
+
+    background: url("../img/back.jpg")   ;
+    background-attachment: fixed;
+    background-position: 0 77%;
+    
+}
+
+
+header{
+        position: fixed;
+		top: 10px;
+		width: 100%;
+		left:0px;
+		right: 0px;
+        display: flex;
+        background: #000066;
+        opacity: .70;
+        justify-content: space-between;
+        align-items:center;
+        border-radius: 10px;
+        
+}
+
+.logo{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.logo a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+    
+}
+nav{
+    margin-right: 50px;
+}
+.logo a:hover{
+
+    border-bottom: solid 2px ;
+    color: #00E5FF;
+    border-radius: 5px;
+}
+
+
+nav ul li{
+    padding: 7px;
+    display:inline;
+    font-size: 20px;
+    color:  #fff;
+}
+
+
+nav ul li a{
+    color:  #fff;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+    
+    
+}
+nav ul li a:hover{
+    border-bottom: solid 2px ;
+    color: #00E5FF;
+    border-radius: 5px;
+
+}
+
+/* HOME */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.hometext{
+    
+    padding: 50px;
+}
+
+.hometext h1{
+    
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.hometext h2{
+    margin: 5px 0;
+    color: #00E5FF;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.hometext p{
+    margin: 5px 0;
+    color: #fff;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homeimg img{
+margin-right: 150px;
+margin-top: 70px;
+  width: 650px;
+
+}
+.button{
+    margin-top: 15px;
+}
+.button button{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px 6px;
+    background: #00E5FF;
+    border: none;
+    opacity: .7;
+    transition: all .5s ease;
+}
+.button button:hover{
+    width: 210px;
+    height: 52px;
+    border-radius: 15px 6px;
+    background: #00E5FF;
+    opacity: 1;
+    border: solid 1.5px #fff;
+    
+}
+
+.button a{
+    padding: 15px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   
+   
+}
